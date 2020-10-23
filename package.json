@@ -1,0 +1,14 @@
+{
+  "name": "dialogflow",
+  "version": "1.0.0",
+  "description": "nodejs webhooks for communicating to dialog flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "peter chege",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
