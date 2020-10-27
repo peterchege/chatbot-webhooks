@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
     res.send("we are live")
 });
 
-app.post('/', (req, res) => {
+app.post('/', express.json(), (req, res) => {
     const agent = new dfff.WebhookClient({
         request: req,
         response: res
